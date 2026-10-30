@@ -82,8 +82,10 @@ def network_figure(grid, fault: int, open_lines: Sequence[int], energized: np.nd
     # tie-switch numbers (small, grey)
     ties = [l for l in getattr(grid, "normal_open", ()) if l != fault]
     if ties:
+        tie_label_offset = 0.15
         fig.add_trace(go.Scatter(
-            x=[mids[l][0] for l in ties], y=[mids[l][1] for l in ties], mode="text",
+            x=[mids[l][0] + tie_label_offset for l in ties],
+            y=[mids[l][1] + tie_label_offset for l in ties], mode="text",
             text=[f"tie {l + 1}" for l in ties], textposition="top right", showlegend=False,
             hoverinfo="skip", textfont=dict(size=9, color=C_OPEN)))
 
