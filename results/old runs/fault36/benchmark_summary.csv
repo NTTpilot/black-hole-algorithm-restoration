@@ -1,0 +1,3 @@
+fault_line_0_based,method,runs,mean_fitness,std_fitness,median_fitness,best_fitness,mean_runtime_seconds,mean_unique_configurations,feasible_rate
+36,BHA_discrete,20,2.0267711696929,0.0,2.0267711696929,2.0267711696929,38.621754259977024,750.0,1.0
+36,random_search,20,2.791383685902173,0.414756785418473,2.7581746210917935,2.0267711696929,36.288515719992574,750.0,1.0

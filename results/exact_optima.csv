@@ -1,0 +1,8 @@
+fault_line_0_based,true_best_fitness,true_best_open_lines,radial_configurations_evaluated,exact_runtime_seconds,feasible_configurations,best_is_feasible
+1,1782.4354,"(7, 23, 29, 33)",,148.0,,False
+3,3.4106151908299926,"(24, 33, 34, 35)",,,,True
+7,2.034933128582725,"(32, 33, 35, 36)",,,,True
+8,2.039922630130344,"(32, 33, 35, 36)",,,,True
+9,2.0513079053496224,"(32, 33, 35, 36)",,,,True
+11,2.4734637676600526,"(32, 34, 35, 36)",,,,True
+28,200.6058,"(8, 13, 24, 32)",,122.0,,False

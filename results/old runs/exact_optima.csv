@@ -1,0 +1,4 @@
+fault_line_0_based,true_best_fitness,true_best_open_lines,radial_configurations_evaluated,exact_runtime_seconds
+7,2.034933128582725,"(32, 33, 35, 36)",10914,548.7174764999654
+32,2.0267711696929,"(33, 34, 35, 36)",12729,427.7773373001255
+36,2.0267711696929,"(32, 33, 34, 35)",5889,242.6407480000053
